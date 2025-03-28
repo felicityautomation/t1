@@ -26,7 +26,7 @@ public class StepDefinitions {
 	public void user_opens_the_demo_blaze_application_url() {
 	  WebActions.openUrl(driver, "https://www.demoblaze.com/index.html");
 	}
- //Added a comment
+
 	//New comments
 	@When("user clicks on Login link")
 	public void user_clicks_on_login_link() {
