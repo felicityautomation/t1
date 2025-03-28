@@ -27,6 +27,7 @@ public class StepDefinitions {
 	  WebActions.openUrl(driver, "https://www.demoblaze.com/index.html");
 	}
  //Added a comment
+	//New comments
 	@When("user clicks on Login link")
 	public void user_clicks_on_login_link() {
 	    DemoBlazeIndexPage indexPage=new DemoBlazeIndexPage(driver);
